@@ -63,3 +63,21 @@ a {
 }
 
 /*Flexbox Starts Here*/
+
+.cover
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-form
+{
+  display: flex;
+  border: 20px solid rgba(0,0,0,0.25);
+  border-radius: 5px;
+}
+
+input[type="search"]{
+  flex-basis: 500px;
+}

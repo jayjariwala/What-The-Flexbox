@@ -37,7 +37,17 @@ a:hover {
 
 .slider-nav ul {
   list-style: none;
+  display: flex;
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
 
+.slider-nav li{
+  display: block;
+  border: 2px solid red;
+}
+
+
+.slider-nav li a{
+display: block;
+}

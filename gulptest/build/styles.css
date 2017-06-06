@@ -1,0 +1,14 @@
+.boxes
+{
+  border:5px solid mistypink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex
+}
+p:first-child{
+background-color: green;
+-webkit-box-flex: 1;
+    -ms-flex: 1;
+        flex: 1;
+height: 50vh
+}
